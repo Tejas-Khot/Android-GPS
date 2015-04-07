@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/android">
+
+    <TextView
+            android:layout_width="200dp"
+            android:textColor="#ffffffff"
+            android:layout_height="40dp"
+            android:id="@+id/textwelcome" android:textSize="20dp"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="Logout"
+            android:id="@+id/logout"
+            android:textSize="13dp"
+            android:textColor="#ffffffff"
+            android:layout_below="@+id/btchangepass"
+            android:layout_alignParentLeft="true"/>
+
+    <TextView
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:id="@+id/lname"
+        android:textColor="#ffffffff"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/btTrackMe"
+        android:layout_alignStart="@+id/btTrackMe"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp" />
+
+    <Button
+        android:id="@+id/btchangepass"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textwelcome"
+        android:text="Change Password"
+        android:textColor="#ffffffff"
+        android:textSize="13dp" />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="You are now logged in !"
+            android:id="@+id/textView" android:layout_below="@+id/logout" android:layout_alignParentRight="true"
+            android:textSize="18dp" android:textColor="#ffffffff" android:textAlignment="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Track  me !"
+        android:id="@+id/btTrackMe"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout><!-- From: file:/home/tejas/AndroidStudioProjects/MCC_Project/app/src/main/res/layout/main.xml -->
